@@ -1,0 +1,49 @@
+{
+  "$id": "job-16",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "content": {
+    "c_benefits": [
+      "Medical and Dental insurance plans",
+      "Paid time off",
+      "Personal development and career growth opportunities",
+      "Fun social events",
+      "Lots of taco eating",
+      "Discounts on food and merchandise",
+      "Free lunch on Mondays for your families"
+    ],
+    "c_jobDepartment": "HR",
+    "c_jobPhoto": {
+      "height": 1266,
+      "thumbnails": [
+        {
+          "height": 412,
+          "url": "http://a.mktgcdn.com/p-sandbox/DtlAmZz2b4LVcE0jyWfPOfX8maQR0OH5FT8bOmC7GEU/619x412.jpg",
+          "width": 619
+        },
+        {
+          "height": 399,
+          "url": "http://a.mktgcdn.com/p-sandbox/DtlAmZz2b4LVcE0jyWfPOfX8maQR0OH5FT8bOmC7GEU/600x399.jpg",
+          "width": 600
+        },
+        {
+          "height": 130,
+          "url": "http://a.mktgcdn.com/p-sandbox/DtlAmZz2b4LVcE0jyWfPOfX8maQR0OH5FT8bOmC7GEU/196x130.jpg",
+          "width": 196
+        }
+      ],
+      "url": "http://a.mktgcdn.com/p-sandbox/DtlAmZz2b4LVcE0jyWfPOfX8maQR0OH5FT8bOmC7GEU/1900x1266.jpg",
+      "width": 1900
+    },
+    "c_jobQualifications": "* 1-2 years experience\n * Friendly, organized and great talking on the phone\n * Excitement to learn",
+    "yext/applicationUrl": "https://boards.greenhouse.io/turtleheadtacos/jobs/138",
+    "yext/datePosted": "2020-07-31",
+    "yext/description": "We are one of the fastest growing companies in the US and we need your help to grow! Join our team and help us to recruit the people that will help spread the Taco-love across the globe. You will be responsible for helping to recruit key corporate roles as well as establishing best practices for recruiting for our Restaurant Team roles.",
+    "yext/employmentType": "FULL_TIME",
+    "yext/hiringOrganization": "Turtlehead Tacos",
+    "yext/jobLocation": "hq-1",
+    "yext/name": "Recruiting Manager"
+  },
+  "entityType": "yext/job",
+  "folder": "088d2b8161bf42b8a4771acbc38a5262",
+  "labels": []
+}

@@ -1,0 +1,11 @@
+{
+  "$id": "8783283465896533189",
+  "$schema": "https://schema.yext.com/config/platform/role/v1",
+  "name": "Hours Data Manager",
+  "description": "Role to manage Hours data and view analytics.",
+  "permissionIds": [
+    31,
+    5
+  ],
+  "availableToSubAccounts": false
+}

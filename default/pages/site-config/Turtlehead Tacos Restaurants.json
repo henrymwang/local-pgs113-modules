@@ -1,0 +1,11 @@
+{
+  "$id": "Turtlehead Tacos Restaurants",
+  "$schema": "https://schema.yext.com/config/pages/site-config/v1",
+  "features": [
+    {
+      "feature": "Turtlehead_Tacos_Restaurant_Pages",
+      "featureType": "SELF_SERVE_PAGE_SET"
+    }
+  ],
+  "siteName": "Turtlehead Tacos Restaurants"
+}

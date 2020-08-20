@@ -1,0 +1,687 @@
+{
+  "$id": "4d0c76ef9dc141fcb9e88e82212c92a5",
+  "$schema": "https://schema.yext.com/config/km/entity-upload-config/v1",
+  "displayName": "Weekly Restaurant File",
+  "mapping": [
+    {
+      "sourceColumnName": "Entity ID",
+      "ignoreColumn": false,
+      "fieldReference": {
+        "id": "yext/entityId",
+        "propertyName": []
+      },
+      "transform": [
+        {
+          "transformType": "TRIM_WHITESPACE"
+        },
+        {
+          "blankValueConfiguration": {
+            "handleBlankValues": "IGNORE"
+          },
+          "transformType": "HANDLE_BLANK_VALUES"
+        }
+      ]
+    },
+    {
+      "sourceColumnName": "Entity Type",
+      "ignoreColumn": false,
+      "fieldReference": {
+        "id": "yext/entityTypeId",
+        "propertyName": []
+      },
+      "transform": [
+        {
+          "transformType": "TRIM_WHITESPACE"
+        },
+        {
+          "blankValueConfiguration": {
+            "handleBlankValues": "IGNORE"
+          },
+          "transformType": "HANDLE_BLANK_VALUES"
+        }
+      ]
+    },
+    {
+      "sourceColumnName": "Country/Region",
+      "ignoreColumn": false,
+      "fieldReference": {
+        "id": "yext/countryCode",
+        "propertyName": []
+      },
+      "transform": [
+        {
+          "transformType": "TRIM_WHITESPACE"
+        },
+        {
+          "blankValueConfiguration": {
+            "handleBlankValues": "IGNORE"
+          },
+          "transformType": "HANDLE_BLANK_VALUES"
+        }
+      ]
+    },
+    {
+      "sourceColumnName": "Name",
+      "ignoreColumn": false,
+      "fieldReference": {
+        "id": "yext/name",
+        "propertyName": []
+      },
+      "transform": [
+        {
+          "transformType": "TRIM_WHITESPACE"
+        },
+        {
+          "blankValueConfiguration": {
+            "handleBlankValues": "IGNORE"
+          },
+          "transformType": "HANDLE_BLANK_VALUES"
+        },
+        {
+          "capitalizationConfiguration": {
+            "capitalization": "CAPITALIZE_FULLY"
+          },
+          "transformType": "CAPITALIZE"
+        }
+      ]
+    },
+    {
+      "sourceColumnName": "Address \u003e Line 1",
+      "ignoreColumn": false,
+      "fieldReference": {
+        "id": "yext/address",
+        "propertyName": [
+          "line1"
+        ]
+      },
+      "transform": [
+        {
+          "transformType": "TRIM_WHITESPACE"
+        },
+        {
+          "blankValueConfiguration": {
+            "handleBlankValues": "IGNORE"
+          },
+          "transformType": "HANDLE_BLANK_VALUES"
+        }
+      ]
+    },
+    {
+      "sourceColumnName": "Address \u003e Line 2",
+      "ignoreColumn": false,
+      "fieldReference": {
+        "id": "yext/address",
+        "propertyName": [
+          "line2"
+        ]
+      },
+      "transform": [
+        {
+          "transformType": "TRIM_WHITESPACE"
+        },
+        {
+          "blankValueConfiguration": {
+            "handleBlankValues": "IGNORE"
+          },
+          "transformType": "HANDLE_BLANK_VALUES"
+        }
+      ]
+    },
+    {
+      "sourceColumnName": "Address \u003e Sublocality",
+      "ignoreColumn": false,
+      "fieldReference": {
+        "id": "yext/address",
+        "propertyName": [
+          "sublocality"
+        ]
+      },
+      "transform": [
+        {
+          "transformType": "TRIM_WHITESPACE"
+        },
+        {
+          "blankValueConfiguration": {
+            "handleBlankValues": "IGNORE"
+          },
+          "transformType": "HANDLE_BLANK_VALUES"
+        }
+      ]
+    },
+    {
+      "sourceColumnName": "Address \u003e City",
+      "ignoreColumn": false,
+      "fieldReference": {
+        "id": "yext/address",
+        "propertyName": [
+          "city"
+        ]
+      },
+      "transform": [
+        {
+          "transformType": "TRIM_WHITESPACE"
+        },
+        {
+          "blankValueConfiguration": {
+            "handleBlankValues": "IGNORE"
+          },
+          "transformType": "HANDLE_BLANK_VALUES"
+        }
+      ]
+    },
+    {
+      "sourceColumnName": "Address \u003e Region",
+      "ignoreColumn": false,
+      "fieldReference": {
+        "id": "yext/address",
+        "propertyName": [
+          "region"
+        ]
+      },
+      "transform": [
+        {
+          "transformType": "TRIM_WHITESPACE"
+        },
+        {
+          "blankValueConfiguration": {
+            "handleBlankValues": "IGNORE"
+          },
+          "transformType": "HANDLE_BLANK_VALUES"
+        }
+      ]
+    },
+    {
+      "sourceColumnName": "Address \u003e Postal Code",
+      "ignoreColumn": false,
+      "fieldReference": {
+        "id": "yext/address",
+        "propertyName": [
+          "postalCode"
+        ]
+      },
+      "transform": [
+        {
+          "transformType": "TRIM_WHITESPACE"
+        },
+        {
+          "blankValueConfiguration": {
+            "handleBlankValues": "IGNORE"
+          },
+          "transformType": "HANDLE_BLANK_VALUES"
+        }
+      ]
+    },
+    {
+      "sourceColumnName": "Address \u003e Extra Description",
+      "ignoreColumn": false,
+      "fieldReference": {
+        "id": "yext/address",
+        "propertyName": [
+          "extraDescription"
+        ]
+      },
+      "transform": [
+        {
+          "transformType": "TRIM_WHITESPACE"
+        },
+        {
+          "blankValueConfiguration": {
+            "handleBlankValues": "IGNORE"
+          },
+          "transformType": "HANDLE_BLANK_VALUES"
+        }
+      ]
+    },
+    {
+      "sourceColumnName": "Main Phone \u003e Phone Number",
+      "ignoreColumn": false,
+      "fieldReference": {
+        "id": "yext/mainPhone",
+        "propertyName": [
+          "phoneNumber"
+        ]
+      },
+      "transform": [
+        {
+          "transformType": "TRIM_WHITESPACE"
+        },
+        {
+          "blankValueConfiguration": {
+            "handleBlankValues": "IGNORE"
+          },
+          "transformType": "HANDLE_BLANK_VALUES"
+        },
+        {
+          "transformType": "PHONE_LETTERS_TO_NUMBERS"
+        },
+        {
+          "transformType": "INFER_PHONE_ISO_COUNTRY_CODE"
+        }
+      ]
+    },
+    {
+      "sourceColumnName": "Featured Message \u003e Description",
+      "ignoreColumn": false,
+      "fieldReference": {
+        "id": "yext/featuredMessage",
+        "propertyName": [
+          "description"
+        ]
+      },
+      "transform": [
+        {
+          "transformType": "TRIM_WHITESPACE"
+        },
+        {
+          "blankValueConfiguration": {
+            "handleBlankValues": "IGNORE"
+          },
+          "transformType": "HANDLE_BLANK_VALUES"
+        }
+      ]
+    },
+    {
+      "sourceColumnName": "Featured Message \u003e URL",
+      "ignoreColumn": false,
+      "fieldReference": {
+        "id": "yext/featuredMessage",
+        "propertyName": [
+          "url"
+        ]
+      },
+      "transform": [
+        {
+          "transformType": "TRIM_WHITESPACE"
+        },
+        {
+          "blankValueConfiguration": {
+            "handleBlankValues": "IGNORE"
+          },
+          "transformType": "HANDLE_BLANK_VALUES"
+        }
+      ]
+    },
+    {
+      "sourceColumnName": "Description",
+      "ignoreColumn": false,
+      "fieldReference": {
+        "id": "yext/description",
+        "propertyName": []
+      },
+      "transform": [
+        {
+          "transformType": "TRIM_WHITESPACE"
+        },
+        {
+          "blankValueConfiguration": {
+            "handleBlankValues": "IGNORE"
+          },
+          "transformType": "HANDLE_BLANK_VALUES"
+        }
+      ]
+    },
+    {
+      "sourceColumnName": "Hours \u003e Monday",
+      "ignoreColumn": false,
+      "fieldReference": {
+        "id": "yext/hours",
+        "propertyName": [
+          "flatinterval_monday"
+        ]
+      },
+      "transform": [
+        {
+          "transformType": "TRIM_WHITESPACE"
+        },
+        {
+          "blankValueConfiguration": {
+            "handleBlankValues": "IGNORE"
+          },
+          "transformType": "HANDLE_BLANK_VALUES"
+        }
+      ]
+    },
+    {
+      "sourceColumnName": "Hours \u003e Tuesday",
+      "ignoreColumn": false,
+      "fieldReference": {
+        "id": "yext/hours",
+        "propertyName": [
+          "flatinterval_tuesday"
+        ]
+      },
+      "transform": [
+        {
+          "transformType": "TRIM_WHITESPACE"
+        },
+        {
+          "blankValueConfiguration": {
+            "handleBlankValues": "IGNORE"
+          },
+          "transformType": "HANDLE_BLANK_VALUES"
+        }
+      ]
+    },
+    {
+      "sourceColumnName": "Hours \u003e Wednesday",
+      "ignoreColumn": false,
+      "fieldReference": {
+        "id": "yext/hours",
+        "propertyName": [
+          "flatinterval_wednesday"
+        ]
+      },
+      "transform": [
+        {
+          "transformType": "TRIM_WHITESPACE"
+        },
+        {
+          "blankValueConfiguration": {
+            "handleBlankValues": "IGNORE"
+          },
+          "transformType": "HANDLE_BLANK_VALUES"
+        }
+      ]
+    },
+    {
+      "sourceColumnName": "Hours \u003e Thursday",
+      "ignoreColumn": false,
+      "fieldReference": {
+        "id": "yext/hours",
+        "propertyName": [
+          "flatinterval_thursday"
+        ]
+      },
+      "transform": [
+        {
+          "transformType": "TRIM_WHITESPACE"
+        },
+        {
+          "blankValueConfiguration": {
+            "handleBlankValues": "IGNORE"
+          },
+          "transformType": "HANDLE_BLANK_VALUES"
+        }
+      ]
+    },
+    {
+      "sourceColumnName": "Hours \u003e Friday",
+      "ignoreColumn": false,
+      "fieldReference": {
+        "id": "yext/hours",
+        "propertyName": [
+          "flatinterval_friday"
+        ]
+      },
+      "transform": [
+        {
+          "transformType": "TRIM_WHITESPACE"
+        },
+        {
+          "blankValueConfiguration": {
+            "handleBlankValues": "IGNORE"
+          },
+          "transformType": "HANDLE_BLANK_VALUES"
+        }
+      ]
+    },
+    {
+      "sourceColumnName": "Hours \u003e Saturday",
+      "ignoreColumn": false,
+      "fieldReference": {
+        "id": "yext/hours",
+        "propertyName": [
+          "flatinterval_saturday"
+        ]
+      },
+      "transform": [
+        {
+          "transformType": "TRIM_WHITESPACE"
+        },
+        {
+          "blankValueConfiguration": {
+            "handleBlankValues": "IGNORE"
+          },
+          "transformType": "HANDLE_BLANK_VALUES"
+        }
+      ]
+    },
+    {
+      "sourceColumnName": "Hours \u003e Sunday",
+      "ignoreColumn": false,
+      "fieldReference": {
+        "id": "yext/hours",
+        "propertyName": [
+          "flatinterval_sunday"
+        ]
+      },
+      "transform": [
+        {
+          "transformType": "TRIM_WHITESPACE"
+        },
+        {
+          "blankValueConfiguration": {
+            "handleBlankValues": "IGNORE"
+          },
+          "transformType": "HANDLE_BLANK_VALUES"
+        }
+      ]
+    },
+    {
+      "sourceColumnName": "Geomodifier",
+      "ignoreColumn": false,
+      "fieldReference": {
+        "id": "yext/geomodifier",
+        "propertyName": []
+      },
+      "transform": [
+        {
+          "transformType": "TRIM_WHITESPACE"
+        },
+        {
+          "blankValueConfiguration": {
+            "handleBlankValues": "IGNORE"
+          },
+          "transformType": "HANDLE_BLANK_VALUES"
+        }
+      ]
+    },
+    {
+      "sourceColumnName": "Landing Page URL",
+      "ignoreColumn": false,
+      "fieldReference": {
+        "id": "yext/landingPageUrl",
+        "propertyName": []
+      },
+      "transform": [
+        {
+          "transformType": "TRIM_WHITESPACE"
+        },
+        {
+          "blankValueConfiguration": {
+            "handleBlankValues": "IGNORE"
+          },
+          "transformType": "HANDLE_BLANK_VALUES"
+        }
+      ]
+    },
+    {
+      "sourceColumnName": "Photo Gallery \u003e URL",
+      "ignoreColumn": false,
+      "fieldReference": {
+        "id": "yext/photoGallery",
+        "propertyName": [
+          "imageUrl"
+        ]
+      },
+      "transform": [
+        {
+          "transformType": "TRIM_WHITESPACE"
+        },
+        {
+          "blankValueConfiguration": {
+            "handleBlankValues": "IGNORE"
+          },
+          "transformType": "HANDLE_BLANK_VALUES"
+        },
+        {
+          "delimitedColumnConfiguration": {
+            "delimiter": "COMMA"
+          },
+          "transformType": "DELIMITED_COLUMNS"
+        }
+      ]
+    },
+    {
+      "sourceColumnName": "Photo Gallery \u003e Alternate Text",
+      "ignoreColumn": false,
+      "fieldReference": {
+        "id": "yext/photoGallery",
+        "propertyName": [
+          "alternateText"
+        ]
+      },
+      "transform": [
+        {
+          "transformType": "TRIM_WHITESPACE"
+        },
+        {
+          "blankValueConfiguration": {
+            "handleBlankValues": "IGNORE"
+          },
+          "transformType": "HANDLE_BLANK_VALUES"
+        },
+        {
+          "delimitedColumnConfiguration": {
+            "delimiter": "COMMA"
+          },
+          "transformType": "DELIMITED_COLUMNS"
+        }
+      ]
+    },
+    {
+      "sourceColumnName": "Photo Gallery \u003e Description",
+      "ignoreColumn": false,
+      "fieldReference": {
+        "id": "yext/photoGallery",
+        "propertyName": [
+          "description"
+        ]
+      },
+      "transform": [
+        {
+          "transformType": "TRIM_WHITESPACE"
+        },
+        {
+          "blankValueConfiguration": {
+            "handleBlankValues": "IGNORE"
+          },
+          "transformType": "HANDLE_BLANK_VALUES"
+        },
+        {
+          "delimitedColumnConfiguration": {
+            "delimiter": "COMMA"
+          },
+          "transformType": "DELIMITED_COLUMNS"
+        }
+      ]
+    },
+    {
+      "sourceColumnName": "Delivery Disclaimer",
+      "ignoreColumn": false,
+      "fieldReference": {
+        "id": "c_deliveryDisclaimer",
+        "propertyName": []
+      },
+      "transform": [
+        {
+          "transformType": "TRIM_WHITESPACE"
+        },
+        {
+          "blankValueConfiguration": {
+            "handleBlankValues": "IGNORE"
+          },
+          "transformType": "HANDLE_BLANK_VALUES"
+        }
+      ]
+    },
+    {
+      "sourceColumnName": "Restaurant Type",
+      "ignoreColumn": false,
+      "fieldReference": {
+        "id": "c_restaurantType",
+        "propertyName": []
+      },
+      "transform": [
+        {
+          "transformType": "TRIM_WHITESPACE"
+        },
+        {
+          "blankValueConfiguration": {
+            "handleBlankValues": "IGNORE"
+          },
+          "transformType": "HANDLE_BLANK_VALUES"
+        }
+      ]
+    },
+    {
+      "sourceColumnName": "Takes Reservations",
+      "ignoreColumn": true,
+      "transform": []
+    },
+    {
+      "sourceColumnName": "Restaurant Features",
+      "ignoreColumn": false,
+      "fieldReference": {
+        "id": "c_restaurantFeatures",
+        "propertyName": []
+      },
+      "transform": [
+        {
+          "transformType": "TRIM_WHITESPACE"
+        },
+        {
+          "blankValueConfiguration": {
+            "handleBlankValues": "IGNORE"
+          },
+          "transformType": "HANDLE_BLANK_VALUES"
+        },
+        {
+          "delimitedColumnConfiguration": {
+            "delimiter": "COMMA"
+          },
+          "transformType": "DELIMITED_COLUMNS"
+        }
+      ]
+    },
+    {
+      "sourceColumnName": "DMA",
+      "ignoreColumn": false,
+      "fieldReference": {
+        "id": "c_territory",
+        "propertyName": []
+      },
+      "transform": [
+        {
+          "transformType": "TRIM_WHITESPACE"
+        },
+        {
+          "blankValueConfiguration": {
+            "handleBlankValues": "IGNORE"
+          },
+          "transformType": "HANDLE_BLANK_VALUES"
+        }
+      ]
+    }
+  ],
+  "additionalField": [],
+  "action": [
+    {
+      "actionType": "APPLY_TEMPLATE",
+      "applyTemplateConfiguration": {
+        "id": "d63ab77e880e4821a18d889f178b644c"
+      },
+      "entityClassification": "NEW"
+    }
+  ]
+}

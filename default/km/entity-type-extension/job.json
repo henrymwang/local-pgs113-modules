@@ -1,0 +1,28 @@
+{
+  "$id": "job",
+  "$schema": "https://schema.yext.com/config/km/entity-type-extension/v1",
+  "enabled": true,
+  "entityType": "yext/job",
+  "field": [
+    {
+      "id": "c_associatedFAQs",
+      "required": false
+    },
+    {
+      "id": "c_benefits",
+      "required": false
+    },
+    {
+      "id": "c_jobDepartment",
+      "required": false
+    },
+    {
+      "id": "c_jobPhoto",
+      "required": false
+    },
+    {
+      "id": "c_jobQualifications",
+      "required": false
+    }
+  ]
+}

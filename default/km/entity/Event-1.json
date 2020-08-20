@@ -1,0 +1,36 @@
+{
+  "$id": "Event-1",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "content": {
+    "c_featuredGuests": [
+      "Our Loyal Turtleheads"
+    ],
+    "yext/address": {
+      "city": "New York",
+      "countryCode": "US",
+      "line1": "1 Madison Ave",
+      "postalCode": "10010",
+      "region": "NY"
+    },
+    "yext/description": "Come join us for Taco Tuesday - each Tuesday from 11 AM - 3 PM all proceeds with be donated to the charity of your choosing! We love supporting local non-profits and are always excited to host such a wonderful event.",
+    "yext/keywords": [
+      "Food"
+    ],
+    "yext/landingPageUrl": "http://events.turtleheadtacos.com/event-1",
+    "yext/linkedLocation": "111",
+    "yext/name": "Taco Tuesday",
+    "yext/organizerEmail": "marty@turtleheadtacos.com",
+    "yext/time": {
+      "end": "2020-08-03T15:00",
+      "start": "2020-08-03T11:00"
+    },
+    "yext/timezone": "America/New_York",
+    "yext/venueName": "Turtlehead Tacos",
+    "yext/websiteUrl": {
+      "url": "http://www.turtleheadtacos.com/events"
+    }
+  },
+  "entityType": "yext/event",
+  "folder": "6a6c09add61e4a5297578af6a45a00a9",
+  "labels": []
+}

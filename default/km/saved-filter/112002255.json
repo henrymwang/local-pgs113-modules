@@ -1,0 +1,21 @@
+{
+  "$id": "112002255",
+  "$schema": "https://schema.yext.com/config/km/saved-filter/v1",
+  "name": "Open Restaurants",
+  "filter": {
+    "entityField": [
+      {
+        "fieldId": "yext/closed",
+        "searchBool": "FALSE"
+      }
+    ],
+    "entityType": [
+      {
+        "entityTypeId": [
+          "yext/restaurant"
+        ],
+        "type": "IS"
+      }
+    ]
+  }
+}
